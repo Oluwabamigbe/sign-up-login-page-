@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+
+/*========================================
+        
+            SIGNUP/LOGIN PAGE
+
+====================================== */
+.main-body{
+    background:rgb(83, 54, 83);
+}
+
+img{
+    width: 300px;
+    position: relative;
+    left: 50px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.buttons  button{
+    width: 150px;
+}
+
+
+
+
+
+/* ========================================
+            
+            LOGIN PAGE
+
+====================================== */
+
+.h1-login{
+   text-align: center;
+}
+
+.whole-content-login{
+  width: 350px;
+  padding: 30px;
+}
+
+.forgot{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+/* ========================================
+       
+           SIGN UP PAGE
+
+====================================== */
+
+
+body{
+    width:400px;
+    background: rgb(32, 16, 9);
+    margin:0px auto;
+    margin-bottom: 50px;
+}
+
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 48px;
+    text-shadow:5px 5px 10px wheat, -5px -5px 10px wheat  ;
+}
+
+main{
+    width:fit-content;
+    border:0;
+    padding: 20px;
+    background: burlywood;
+    box-shadow:5px 5px 10px black, -5px -5px 10px black ;
+}
+
+.signup-with{
+    border-bottom: 1px solid;
+    width: 100%;
+}
+
+.signup-with button {
+    border-radius: 20px;
+    outline: none;
+    color: whitesmoke;
+    border: 0;
+    font-size: 16px;
+}
+
+.with-google button{
+    background: floralwhite;
+    color: black;
+}
+
+
+.with-google button:hover{
+    background: rgb(236, 222, 208);
+}
+
+.with-facebook button{
+    background: rgb(75, 75, 196);
+    margin-bottom: 20px;
+}
+
+
+.with-facebook button:hover{
+    background: rgb(42, 122, 172);
+}
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+label{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
+form > div{
+    text-align:left;
+    margin-bottom:30px;
+}
+
+form > div label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+form > div input{
+    outline: none; 
+    padding: 10px; 
+    width: 100%;  
+    border: 1px solid grey;
+    border-radius: 10px;   
+    font-size:14px;      
+}
+
+
+.dob{
+    width: 100%;
+}
+
+
+.date-of-birth{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,2fr 1fr);
+    grid-gap: 20px;
+}
+
+.date-of-birth select{
+    border: 1px solid grey;
+    border-radius: 2px;
+    outline: none;
+    padding: 10px;
+}
+
+
+
+.date-of-birth input{
+    width: 75px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    outline: none;
+    padding: 10px;
+}
+
+
+.gender-choice{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-weight: lighter;
+    
+}
+
+.gender-choice input[type="radio"] {
+   margin-left: -40px;
+   display: inline-block;
+   width: auto; 
+}
+
+.gender-choice label {
+    font-size: 17px;
+}
+
+.links p {
+    text-align: center;
+}
+
+button {
+    padding: 20px;
+    width: 100%;
+    background: black;
+    color: wheat;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover{
+    background: rgb(240, 39, 16);
+}
+
+
